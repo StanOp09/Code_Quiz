@@ -18,22 +18,22 @@ let timerId;
 const questions = [
   {
     question: "What is the name of the 12th element of the periodic table?",
-    options: ["Hydrogen", "Oxygen", "Carbon", "Nitrogen"],
+    options: ["1. Hydrogen", "2. Oxygen", "3. Carbon", "4. Nitrogen"],
     answer: 2 // Index of the correct answer in the options array
   },
   {
     question: "What is responsible for the green color in plant leaves?",
-    options: ["Nectar", "Chlorophyll", "Sepal", "Petal"],
+    options: ["1. Nectar", "2. Chlorophyll", "3. Sepal", "4.Petal"],
     answer: 1
   },
   {
     question: "Which team won the 2022-2023 NBA finals?",
-    options: ["Denver Nuggets", "New York Knicks", "Miami Heat", "Los Angeles Lakers"],
+    options: ["1. Denver Nuggets", "2. New York Knicks", "3. Miami Heat", "4. Los Angeles Lakers"],
     answer: 0
   },
   {
     question: "Which Canadian Province is known for oil?",
-    options: ["Ontario", "Alberta", "British Columbia", "Halifax"],
+    options: ["1. Ontario", "2. Alberta", "3. British Columbia", "4. Halifax"],
     answer: 1
   },
 ];
