@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="./Assets/style/style.css">
+</head>
+<body>
+  <header>
+    <h5><a href="#" id="highscores-link" onclick="showHighScore()">View Highscores</a></h5>
+    <h5 id="timer">Time</h5>
+  </header>
+  <main>
+    <h1>General Knowledge in Science and Sports Quiz</h1>
+    <button id="start-btn">Start</button>
+    <div id="quiz-container">
+        <div id="question-container">
+            <h2 id="question"></h2>
+            <ol id="options" class="options"></ol>
+        </div>
+        <div id="result-container">
+            <p id="result"></p>
+        </div>
+    </div>
+    <form id="score-form" style="display: none;">
+        <label for="initials">Enter your initials:</label>
+        <input type="text" id="initials" required>
+        <button id="submit-btn">Submit</button>
+    </form>
+    <ul id="highscores-list" style="display: none;"></ul>
+    <div>
+        <button id="back-btn" style="display: none;">Go Back</button>
+        <button id="refresh-btn" style="display: none;">Refresh High Scores</button>
+    </div>
+  </main>
+    <script src="./Assets/script/script.js"></script>
+</body>
+</html>
