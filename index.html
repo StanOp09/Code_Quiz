@@ -8,32 +8,32 @@
 </head>
 <body>
   <header>
-    <h5><a href="#" id="highscores-link" onclick="showHighScore()">View Highscores</a></h5>
-    <h5 id="timer">Time</h5>
+    <h5><a href="#" id="highscores-link" onclick="showHighScores()">View Highscores</a></h5> <!-- Link to view highscores -->
+    <h5 id="timer">Time</h5> <!-- Timer display -->
   </header>
   <main>
     <h1>General Knowledge in Science and Sports Quiz</h1>
-    <button id="start-btn">Start</button>
+    <button id="start-btn">Start</button> <!-- Start button to begin the quiz -->
     <div id="quiz-container">
         <div id="question-container">
-            <h2 id="question"></h2>
-            <ol id="options" class="options"></ol>
+            <h2 id="question"></h2> <!-- Question display -->
+            <ol id="options" class="options"></ol> <!-- List of options for the question -->
         </div>
         <div id="result-container">
-            <p id="result"></p>
+            <p id="result"></p> <!-- Result display after answering a question -->
         </div>
     </div>
     <form id="score-form" style="display: none;">
         <label for="initials">Enter your initials:</label>
-        <input type="text" id="initials" required>
-        <button id="submit-btn">Submit</button>
+        <input type="text" id="initials" required> <!-- Input field to enter initials for storing high scores -->
+        <button id="submit-btn">Submit</button> <!-- Submit button for storing the score -->
     </form>
-    <ul id="highscores-list" style="display: none;"></ul>
+    <ul id="highscores-list" style="display: none;"></ul> <!-- List to display high scores -->
     <div>
-        <button id="back-btn" style="display: none;">Go Back</button>
-        <button id="refresh-btn" style="display: none;">Refresh High Scores</button>
+        <button id="back-btn" style="display: none;">Go Back</button> <!-- Go back button to return to the main page -->
+        <button id="refresh-btn" style="display: none;">Refresh High Scores</button> <!-- Refresh button to clear high scores -->
     </div>
   </main>
-    <script src="./Assets/script/script.js"></script>
+    <script src="./Assets/script/script.js"></script> <!-- JavaScript file for quiz functionality -->
 </body>
 </html>
