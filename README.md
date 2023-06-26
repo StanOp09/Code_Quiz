@@ -3,6 +3,10 @@
 ## Description
 One of the common web applications you will see these days are the ones that require you to interactively click on choices and finally submit your input and receive feedback immediately on all choices made. Examples include and not limited to making online pizza order, writing exams online, playing online knowledge based games, amazon order, etc. With this the client can conveniently know all availablle options and select to get value for their purchases or good feedback. As a web developer this is one of the projects that help me learn and understand what goes into building such web applications for easy accessibility.
 
+The github repository can be found at https://github.com/StanOp09/Code_Quiz
+
+The live website is hosted at https://stanop09.github.io/Code_Quiz/
+
 ## Acceptance Criteria
 The following acceptance criteria was addopted from https://git.bootcampcontent.com/University-of-Toronto/UTOR-VIRT-FSF-PT-05-2023-U-LOLC/-/tree/main/04-Web-APIs/02-Challenge
 ```
